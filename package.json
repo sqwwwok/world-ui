@@ -1,0 +1,27 @@
+{
+  "name": "demo-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "dev": "nodemon --exec npm run build",
+    "beautify": "prettier --write src/**/*",
+    "serve": "npx serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "esbuild": "^0.14.39",
+    "esbuild-plugin-less": "^1.1.6",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
